@@ -1,7 +1,11 @@
 mkdir grpc_example
+
 cd grpc_example
+
 virtualenv -p python3 env
+
 source env/bin/activate
+
 pip install grpcio grpcio-tools
 
 
