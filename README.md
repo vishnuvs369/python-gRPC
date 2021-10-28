@@ -17,7 +17,6 @@ Once we are done with the creation of the .proto file, we need to generate the s
 
 python -m grpc_tools.protoc --proto_path=. ./unary.proto --python_out=. --grpc_python_out=.
 
-
 Two files are generated named unary_pb2.py and unary_pb2_grpc.py. Using these two stub files, we will implement the gRPC server and the client.
 
 # Implementing the Server
